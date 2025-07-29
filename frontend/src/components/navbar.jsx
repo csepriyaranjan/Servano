@@ -24,30 +24,30 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
+            <a
               to="/#services"
               className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer transition-colors"
             >
               Services
-            </Link>
+            </a>
             <Link
               to="/about"
               className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer transition-colors"
             >
               About
             </Link>
-            <Link
+            <a
               to="/#testimonials"
               className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer transition-colors"
             >
               Reviews
-            </Link>
-            <Link
+            </a>
+            <a
               to="/#contact"
               className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer transition-colors"
             >
               Contact
-            </Link>
+            </a>
           </nav>
 
           {/* CTA Button, Profile Icon & Mobile Menu */}
