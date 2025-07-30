@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Loader from "./loader";
+import Loader from "./Loader";
 
 const Contact = () => {
   const [form, setForm] = useState({
