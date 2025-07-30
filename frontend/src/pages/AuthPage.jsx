@@ -2,7 +2,7 @@ import { useState } from "react";
 import API from "../components/api";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import Loader from "../components/loder";
+import Loader from "../components/Loader";
 
 export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
